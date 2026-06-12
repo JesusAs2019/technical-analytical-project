@@ -2,17 +2,17 @@
 
 **MSc Chemistry → Data Engineer:**
 
-Pharmaceutical domain expertise + Modern data engineering skills + AI/ML integration
+R&D , Biotech & Pharmaceutical domain expertise + Modern data engineering skills + AI/ML integration
 
 ---
 
 ## 👨‍💼 About Me
 
-Data Engineer with strong pharmaceutical chemistry background (MSc Chemistry) and teaching experience. Specialized in building data solutions for life sciences, combining domain knowledge with modern engineering practices.
+Data Engineer with strong chemistry Research background (MSc Chemistry) and teaching experience. Specialized in building data solutions for life sciences, combining domain knowledge with modern engineering practices.
 
 **Unique Value Proposition:**
 
-- 🧪 Chemistry domain expertise (pharmaceutical data validation)
+- 🧪 Chemistry domain expertise (R&D, Life Science,pharmaceutical data validation)
 - 👨‍🏫 Teaching background (creating user-friendly solutions)
 - 🤖 AI/ML integration (LLM APIs, automation)
 - 📊 Production-ready code (type hints, logging, error handling)
