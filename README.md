@@ -186,11 +186,10 @@ Target Role: Data Engineer (Pharma/Biotech focus)
 
 Competitive Advantage:
 
-Top 0.029% of candidates (Chemistry MSc + Teaching + Data Engineering + AI)
-5 direct competitors in UK market vs 17,000 generic data engineers
+Chemistry MSc + Teaching + Data Engineering + AI.
 Domain expertise in pharmaceutical validation rules
 Teaching background enables better stakeholder communication
-Contract Rate: £550-650/day (vs £450-500 generic market rate)
+Contract at £450-500 generic market rate.
 
 📝 License
 MIT License - Free to use and modify
@@ -204,5 +203,5 @@ OpenAI API
 PyPDF2
 sqlite3
 
-Last Updated: December 2025
+Last Updated: June 2026
 
