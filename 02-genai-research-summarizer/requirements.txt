@@ -1,0 +1,12 @@
+# AI/LLM APIs
+openai>=1.0.0
+
+# PDF Processing
+PyPDF2>=3.0.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Optional: Alternative LLM providers
+# anthropic>=0.7.0
+# google-generativeai>=0.3.0

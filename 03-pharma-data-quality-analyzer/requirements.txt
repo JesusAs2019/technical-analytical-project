@@ -1,0 +1,8 @@
+# Data manipulation
+pandas>=2.0.0
+
+# Statistical analysis
+numpy>=1.24.0
+
+# Optional: Advanced statistics
+# scipy>=1.10.0

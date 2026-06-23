@@ -1,0 +1,11 @@
+experiment_id,compound_name,ph,temperature,temp_unit,concentration,conc_unit,batch_number,scientist
+EXP001,Aspirin,7.4,25,celsius,100,mM,BATCH001,Dr. Smith
+EXP002,Ibuprofen,6.8,22,celsius,50,mM,BATCH002,Dr. Jones
+EXP003,Paracetamol,7.2,24,celsius,75,mM,BATCH003,Dr. Brown
+EXP004,Amoxicillin,8.5,20,celsius,200,µM,BATCH004,Dr. Davis
+EXP005,Metformin,5.5,23,celsius,150,mM,BATCH005,Dr. Wilson
+EXP006,Invalid_pH,15.5,25,celsius,100,mM,BATCH006,Dr. Error
+EXP007,Invalid_Temp,-300,celsius,50,mM,BATCH007,Dr. Error
+EXP008,Insulin,7.0,4,celsius,10,µM,BATCH008,Dr. Lee
+EXP009,Warfarin,6.5,21,celsius,80,mM,BATCH009,Dr. Taylor
+EXP010,Dopamine,7.3,25,celsius,120,mM,BATCH010,Dr. Martinez

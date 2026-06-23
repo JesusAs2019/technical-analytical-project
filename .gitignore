@@ -1,0 +1,56 @@
+﻿# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+
+# Data files
+data/*.csv
+data/*.json
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables (API keys - never commit!)
+.env
+*.env
+
+# Except the example file
+!.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Summary outputs
+**/summaries/
+

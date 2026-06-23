@@ -1,0 +1,36 @@
+
+Novel Synthesis of Aspirin Derivatives Using Catalytic Hydrogenation
+
+Abstract
+We report a novel catalytic method for synthesizing aspirin derivatives with 
+significantly improved efficiency. Using palladium on carbon (Pd/C) catalyst 
+in ethanol solvent at 85°C, we achieved 94% yield compared to traditional 
+methods yielding only 78%.
+
+Introduction
+Aspirin and its derivatives are among the most widely used pharmaceutical 
+compounds globally. Traditional synthesis methods suffer from low yields, 
+long reaction times, and environmental concerns due to excessive solvent use.
+
+Methods
+We employed a catalytic hydrogenation approach using 5% Pd/C in ethanol at 
+85°C under 2 bar hydrogen pressure. Reaction progress was monitored by HPLC.
+
+Results
+- Yield: 94% (vs. 78% traditional)
+- Reaction time: 2.5 hours (vs. 4.5 hours traditional)
+- Cost: £8/kg (vs. £15/kg traditional)
+- Solvent waste: 30% reduction
+
+The optimized temperature of 85°C was critical; higher temperatures led to 
+decomposition, while lower temperatures slowed the reaction significantly.
+
+Discussion
+This method represents a significant improvement in pharmaceutical synthesis. 
+The 45% reduction in reaction time combined with improved yield makes this 
+approach economically attractive for industrial scale-up.
+
+Conclusion
+We have developed a superior catalytic method for aspirin derivative synthesis 
+with clear advantages in yield, cost, and environmental impact. Patent 
+application UK-2024-12345 has been filed.
