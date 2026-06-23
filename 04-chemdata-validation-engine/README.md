@@ -354,19 +354,19 @@ This screen presents the molecule in both 2D and 3D views within a single analyt
 
 ### Screen 1 - Structure Visualization Screen
 
-![Screen 1 - Structure Visualization Screen](https://www.genspark.ai/api/files/s/RwzrIJnl)
+![Screen 1 - Structure Visualization Screen]()
 
 ### Screen 2 — Geometric Metrics Screen
 This screen presents Bond Length Metrics and Bond Angle Metrics side by side, each with explanatory descriptions underneath. It supports quick interpretation of molecular geometry in a more structured R&D-style interface. Screen 2
 
 ### Screen 2 - Geometric Metrics Screen
-![Screen 2 - Geometric Metrics Screen](https://www.genspark.ai/api/files/s/GtjicCbB)
+![Screen 2 - Geometric Metrics Screen]()
 
 Development and Execution View
 This view shows the project running successfully in VS Code, including repository structure, generated outputs, and terminal execution evidence. It helps demonstrate tested workflow delivery as part of the public portfolio presentation. Workspace view
 
 ### VS Code Execution View
-![VS Code Execution View](https://www.genspark.ai/api/files/s/K93vOP4s)
+![VS Code Execution View]()
 
 Workflow Summary
 The project follows a simple end-to-end workflow:
