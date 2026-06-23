@@ -229,7 +229,7 @@ All sample data and outputs are portfolio-oriented and safe for public GitHub pr
 
 ## Screenshots
 
-Browser dashboard preview: [Viewer screenshot](file:///C:/Users/New%20Owner/OneDrive/Documents/technical-analytical-project/04-chemdata-validation-engine/data/reports/CMP001_viewer.html)  
+Browser dashboard preview:![Viewer screenshot](file:///C:/Users/New%20Owner/OneDrive/Documents/technical-analytical-project/04-chemdata-validation-engine/data/reports/CMP001_viewer.html)  
 Development and execution view in VS Code: [Workspace screenshot]()
 
 ## Why This Project Matters
