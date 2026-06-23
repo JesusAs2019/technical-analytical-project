@@ -1,0 +1,26 @@
+[
+  {
+    "compound_id": "CMP001",
+    "compound_name": "Aspirin",
+    "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+    "source": "demo_batch_01",
+    "temperature_c": 25.0,
+    "ph": 3.2
+  },
+  {
+    "compound_id": "CMP002",
+    "compound_name": "Caffeine",
+    "smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
+    "source": "demo_batch_01",
+    "temperature_c": 22.0,
+    "ph": 6.8
+  },
+  {
+    "compound_id": "CMP003",
+    "compound_name": "Invalid Example",
+    "smiles": "INVALID_SMILES",
+    "source": "demo_batch_01",
+    "temperature_c": 20.0,
+    "ph": 7.0
+  }
+]
