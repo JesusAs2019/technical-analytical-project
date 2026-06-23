@@ -229,8 +229,8 @@ All sample data and outputs are portfolio-oriented and safe for public GitHub pr
 
 ## Screenshots
 
-Browser dashboard preview: [Viewer screenshot](https://www.genspark.ai/api/files/s/RwzrIJnl)  
-Development and execution view in VS Code: [Workspace screenshot](https://www.genspark.ai/api/files/s/K93vOP4s)
+Browser dashboard preview: [Viewer screenshot]()  
+Development and execution view in VS Code: [Workspace screenshot]()
 
 ## Why This Project Matters
 
@@ -269,41 +269,7 @@ This project supports a broader portfolio focused on:
 If you found this project interesting, feel free to explore the wider `technical-analytical-project` repository for additional data engineering, AI, and scientific analytics demos.
 ```
 
----
 
-# Professional GitHub Project Description
-
-Use this as the **short GitHub description** for Project 4:
-
-**Python-based chemical data validation and molecular visualization dashboard with 2D/3D structure views, bond metrics, JSON reporting, and RDKit-powered validation.**
-
-If you want a slightly more premium version:
-
-**Domain-aware chemical data validation and molecular visualization demo built with Python, RDKit, JSON reporting, and an analytical 2D/3D dashboard.**
-
----
-
-# Portfolio Summary for README, LinkedIn, or Portfolio Site
-
-Use this as a **professional portfolio summary** for the dashboard:
-
-**ChemData Validation Engine** is a molecular data validation and visualization project that demonstrates how structured scientific records can be ingested, verified, and transformed into a usable analytical dashboard. Built with Python and RDKit, the project validates chemical inputs, flags invalid molecular records, generates JSON-based reports, and renders an interactive browser dashboard featuring 2D and 3D molecular views alongside bond-length and bond-angle metrics. It showcases a practical blend of data engineering, scientific validation, technical reporting, and domain-focused visualization. [Viewer screenshot](https://www.genspark.ai/api/files/s/RwzrIJnl)
-
-And here is a more **consultant-style** version:
-
-**ChemData Validation Engine** showcases my ability to build domain-aware analytical tools that combine structured ingestion, validation logic, scientific computation, and user-facing reporting. The project processes chemical records, detects invalid structures, generates machine-readable validation outputs, and presents approved compounds through a polished molecular dashboard with 2D/3D visualization and geometry metrics. It reflects the type of technical data solution I aim to deliver across scientific, industrial, and R&D-oriented environments. [Workspace screenshot](https://www.genspark.ai/api/files/s/K93vOP4s)
-
----
-
-# Best way to use these
-
-For the strongest presentation:
-
-- use the full README inside **`04-chemdata-validation-engine/README.md`**
-- use the short description as the **GitHub repo/project description**
-- use the portfolio summary in your **main repo README**, **LinkedIn Featured section**, or **portfolio website**
-
-If you want, I can next write the **main root README section for `technical-analytical-project`** so Project 4 fits cleanly with Projects 1–6.
 
 README for 04-Chemdata-validation-engine
 # ChemData Validation Engine
