@@ -1,0 +1,1071 @@
+[
+  {
+    "compound_id": "CMP001",
+    "compound_name": "Aspirin",
+    "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+    "molecular_formula": "C9H8O4",
+    "molecular_weight": 180.16,
+    "validation_status": "PASS",
+    "chiral_centers": 0,
+    "stereochemistry_notes": "No tetrahedral chiral centers detected; aromatic ring and ester/carboxylic acid motifs preserved.",
+    "temperature_c": 25.0,
+    "solvent": "Water/Ethanol (70:30)",
+    "reaction_time_hr": 2.5,
+    "ph": 7.2,
+    "source_project": "Project 4",
+    "last_updated": "2026-06-30",
+    "viewer_ready": true,
+    "reaction_name": "Aspirin Hydrolysis (Conceptual Playback)",
+    "reactants": ["Aspirin", "Water"],
+    "products": ["Salicylic Acid", "Acetic Acid"],
+    "transition_state_label": "Acyl Cleavage Transition State",
+    "catalyst": "Aqueous base-assisted environment",
+    "pressure_bar": 1.0,
+    "expected_yield_pct": 84.0,
+    "confidence_score": 0.91,
+    "provenance_type": "Experimental",
+    "activation_energy_kj_mol": 67.4,
+    "activation_energy_kcal_mol": 16.109,
+    "delta_h_kj_mol": -21.6,
+    "delta_g_kj_mol": -17.2,
+    "mechanism_steps": [
+      {
+        "step_index": 0,
+        "step_label": "Reactant Complex",
+        "stage": "reactant",
+        "description": "Aspirin and water aligned before acyl substitution begins.",
+        "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "relative_energy_kj_mol": 0.0,
+        "highlight_atoms": [0, 1, 2, 10, 11],
+        "highlight_bonds": [[1, 2], [10, 11]],
+        "bond_events": [],
+        "transition_state": false
+      },
+      {
+        "step_index": 1,
+        "step_label": "Nucleophilic Approach",
+        "stage": "intermediate",
+        "description": "Water approaches the acyl carbon and polarization increases around the ester bond.",
+        "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "relative_energy_kj_mol": 28.4,
+        "highlight_atoms": [1, 2, 3, 10],
+        "highlight_bonds": [[1, 2], [2, 3]],
+        "bond_events": [
+          {
+            "type": "activation",
+            "description": "Increasing electrophilicity at acyl carbon."
+          }
+        ],
+        "transition_state": false
+      },
+      {
+        "step_index": 2,
+        "step_label": "Transition State",
+        "stage": "transition",
+        "description": "Maximum barrier region with partial bond formation to the incoming oxygen and partial ester bond cleavage.",
+        "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "relative_energy_kj_mol": 67.4,
+        "highlight_atoms": [1, 2, 3, 10, 11],
+        "highlight_bonds": [[1, 2], [2, 3], [10, 11]],
+        "bond_events": [
+          {
+            "type": "partial-bond-forming",
+            "description": "Incoming oxygen begins bonding to acyl carbon."
+          },
+          {
+            "type": "partial-bond-breaking",
+            "description": "Ester linkage begins to cleave."
+          }
+        ],
+        "transition_state": true
+      },
+      {
+        "step_index": 3,
+        "step_label": "Tetrahedral Intermediate",
+        "stage": "intermediate",
+        "description": "A transient tetrahedral-like intermediate after nucleophilic addition.",
+        "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "relative_energy_kj_mol": 18.9,
+        "highlight_atoms": [1, 2, 3],
+        "highlight_bonds": [[1, 2]],
+        "bond_events": [
+          {
+            "type": "intermediate",
+            "description": "High-energy intermediate formed before collapse."
+          }
+        ],
+        "transition_state": false
+      },
+      {
+        "step_index": 4,
+        "step_label": "Products",
+        "stage": "product",
+        "description": "Product-side representation after hydrolytic cleavage.",
+        "smiles": "O=C(O)C1=CC=CC=C1O",
+        "relative_energy_kj_mol": -21.6,
+        "highlight_atoms": [],
+        "highlight_bonds": [],
+        "bond_events": [
+          {
+            "type": "bond-cleaved",
+            "description": "Ester bond fully broken; products stabilized."
+          }
+        ],
+        "transition_state": false
+      }
+    ],
+    "energy_profile": [
+      {
+        "step_index": 0,
+        "step_label": "Reactant Complex",
+        "stage": "reactant",
+        "energy_kj_mol": 0.0,
+        "energy_kcal_mol": 0.0,
+        "activation_energy_kj_mol": 67.4,
+        "activation_energy_kcal_mol": 16.109,
+        "delta_h_kj_mol": -21.6,
+        "delta_g_kj_mol": -17.2,
+        "is_transition_state": false
+      },
+      {
+        "step_index": 1,
+        "step_label": "Nucleophilic Approach",
+        "stage": "intermediate",
+        "energy_kj_mol": 28.4,
+        "energy_kcal_mol": 6.788,
+        "activation_energy_kj_mol": 67.4,
+        "activation_energy_kcal_mol": 16.109,
+        "delta_h_kj_mol": -21.6,
+        "delta_g_kj_mol": -17.2,
+        "is_transition_state": false
+      },
+      {
+        "step_index": 2,
+        "step_label": "Transition State",
+        "stage": "transition",
+        "energy_kj_mol": 67.4,
+        "energy_kcal_mol": 16.109,
+        "activation_energy_kj_mol": 67.4,
+        "activation_energy_kcal_mol": 16.109,
+        "delta_h_kj_mol": -21.6,
+        "delta_g_kj_mol": -17.2,
+        "is_transition_state": true
+      },
+      {
+        "step_index": 3,
+        "step_label": "Tetrahedral Intermediate",
+        "stage": "intermediate",
+        "energy_kj_mol": 18.9,
+        "energy_kcal_mol": 4.517,
+        "activation_energy_kj_mol": 67.4,
+        "activation_energy_kcal_mol": 16.109,
+        "delta_h_kj_mol": -21.6,
+        "delta_g_kj_mol": -17.2,
+        "is_transition_state": false
+      },
+      {
+        "step_index": 4,
+        "step_label": "Products",
+        "stage": "product",
+        "energy_kj_mol": -21.6,
+        "energy_kcal_mol": -5.162,
+        "activation_energy_kj_mol": 67.4,
+        "activation_energy_kcal_mol": 16.109,
+        "delta_h_kj_mol": -21.6,
+        "delta_g_kj_mol": -17.2,
+        "is_transition_state": false
+      }
+    ],
+    "trajectory_frames": [
+      {
+        "frame_id": "CMP001_frame_0",
+        "step_index": 0,
+        "step_label": "Reactant Complex",
+        "stage": "reactant",
+        "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "energy_kj_mol": 0.0,
+        "energy_kcal_mol": 0.0,
+        "delta_h_kj_mol": -21.6,
+        "delta_g_kj_mol": -17.2,
+        "is_transition_state": false,
+        "highlight_atoms": [0, 1, 2, 10, 11],
+        "highlight_bonds": [[1, 2], [10, 11]],
+        "bond_events": [],
+        "playback_note": "Initial reactant-side geometry.",
+        "conformer_id": "CMP001_conf_A",
+        "viewer_ready": true
+      },
+      {
+        "frame_id": "CMP001_frame_1",
+        "step_index": 1,
+        "step_label": "Nucleophilic Approach",
+        "stage": "intermediate",
+        "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "energy_kj_mol": 28.4,
+        "energy_kcal_mol": 6.788,
+        "delta_h_kj_mol": -21.6,
+        "delta_g_kj_mol": -17.2,
+        "is_transition_state": false,
+        "highlight_atoms": [1, 2, 3, 10],
+        "highlight_bonds": [[1, 2], [2, 3]],
+        "bond_events": [
+          {
+            "type": "approach",
+            "description": "Nucleophile approaching acyl center."
+          }
+        ],
+        "playback_note": "Approach phase before the energy barrier.",
+        "conformer_id": "CMP001_conf_B",
+        "viewer_ready": true
+      },
+      {
+        "frame_id": "CMP001_frame_2",
+        "step_index": 2,
+        "step_label": "Transition State",
+        "stage": "transition",
+        "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "energy_kj_mol": 67.4,
+        "energy_kcal_mol": 16.109,
+        "delta_h_kj_mol": -21.6,
+        "delta_g_kj_mol": -17.2,
+        "is_transition_state": true,
+        "highlight_atoms": [1, 2, 3, 10, 11],
+        "highlight_bonds": [[1, 2], [2, 3], [10, 11]],
+        "bond_events": [
+          {
+            "type": "ts",
+            "description": "Activated bond redistribution at highest barrier."
+          }
+        ],
+        "playback_note": "Peak of the reaction coordinate.",
+        "conformer_id": "CMP001_conf_TS",
+        "viewer_ready": true
+      },
+      {
+        "frame_id": "CMP001_frame_3",
+        "step_index": 3,
+        "step_label": "Tetrahedral Intermediate",
+        "stage": "intermediate",
+        "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "energy_kj_mol": 18.9,
+        "energy_kcal_mol": 4.517,
+        "delta_h_kj_mol": -21.6,
+        "delta_g_kj_mol": -17.2,
+        "is_transition_state": false,
+        "highlight_atoms": [1, 2, 3],
+        "highlight_bonds": [[1, 2]],
+        "bond_events": [
+          {
+            "type": "intermediate",
+            "description": "Tetrahedral-like intermediate stabilized."
+          }
+        ],
+        "playback_note": "Intermediate well after barrier crossing.",
+        "conformer_id": "CMP001_conf_C",
+        "viewer_ready": true
+      },
+      {
+        "frame_id": "CMP001_frame_4",
+        "step_index": 4,
+        "step_label": "Products",
+        "stage": "product",
+        "smiles": "O=C(O)C1=CC=CC=C1O",
+        "energy_kj_mol": -21.6,
+        "energy_kcal_mol": -5.162,
+        "delta_h_kj_mol": -21.6,
+        "delta_g_kj_mol": -17.2,
+        "is_transition_state": false,
+        "highlight_atoms": [],
+        "highlight_bonds": [],
+        "bond_events": [
+          {
+            "type": "product",
+            "description": "Product-side stabilized geometry."
+          }
+        ],
+        "playback_note": "Final hydrolysis products.",
+        "conformer_id": "CMP001_conf_P",
+        "viewer_ready": true
+      }
+    ],
+    "conformers": [
+      {
+        "conformer_id": "CMP001_conf_A",
+        "frame_id": "CMP001_frame_0",
+        "step_label": "Reactant Complex",
+        "source": "experimental-inspired",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "ball-and-stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 0.0,
+        "rmsd_reference": 0.0,
+        "export_formats": ["mol", "xyz", "pdb"]
+      },
+      {
+        "conformer_id": "CMP001_conf_B",
+        "frame_id": "CMP001_frame_1",
+        "step_label": "Nucleophilic Approach",
+        "source": "trajectory-derived",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 3.1,
+        "rmsd_reference": 0.42,
+        "export_formats": ["mol", "xyz", "pdb"]
+      },
+      {
+        "conformer_id": "CMP001_conf_TS",
+        "frame_id": "CMP001_frame_2",
+        "step_label": "Transition State",
+        "source": "conceptual-ts",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "ball-and-stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 8.4,
+        "rmsd_reference": 0.87,
+        "export_formats": ["mol", "xyz", "pdb"]
+      },
+      {
+        "conformer_id": "CMP001_conf_C",
+        "frame_id": "CMP001_frame_3",
+        "step_label": "Tetrahedral Intermediate",
+        "source": "trajectory-derived",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 2.2,
+        "rmsd_reference": 0.55,
+        "export_formats": ["mol", "xyz", "pdb"]
+      },
+      {
+        "conformer_id": "CMP001_conf_P",
+        "frame_id": "CMP001_frame_4",
+        "step_label": "Products",
+        "source": "product-state",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "ball-and-stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 0.6,
+        "rmsd_reference": 0.29,
+        "export_formats": ["mol", "xyz", "pdb"]
+      }
+    ],
+    "bond_metadata": [
+      {
+        "compound_id": "CMP001",
+        "bond_type": "C-C",
+        "atoms": "C5-C6",
+        "bond_order": "aromatic",
+        "length_angstrom": 1.394,
+        "source": "reference",
+        "step_scope": "baseline"
+      },
+      {
+        "compound_id": "CMP001",
+        "bond_type": "C-O",
+        "atoms": "C2-O3",
+        "bond_order": "single",
+        "length_angstrom": 1.360,
+        "source": "reference",
+        "step_scope": "baseline"
+      },
+      {
+        "compound_id": "CMP001",
+        "bond_type": "C=O",
+        "atoms": "C1-O0",
+        "bond_order": "double",
+        "length_angstrom": 1.212,
+        "source": "reference",
+        "step_scope": "baseline"
+      },
+      {
+        "compound_id": "CMP001",
+        "bond_type": "O-H",
+        "atoms": "O11-H12",
+        "bond_order": "single",
+        "length_angstrom": 0.970,
+        "source": "reference",
+        "step_scope": "product"
+      }
+    ],
+    "interactive_controls": {
+      "play_enabled": true,
+      "pause_enabled": true,
+      "next_step_enabled": true,
+      "previous_step_enabled": true,
+      "trajectory_slider_enabled": true,
+      "energy_highlight_sync": true,
+      "auto_rotate_3d": false,
+      "style_options": ["stick", "ball-and-stick", "sphere"],
+      "export_options": ["json", "csv", "md", "mol", "xyz", "pdb"],
+      "default_playback_speed_ms": 900
+    }
+  },
+  {
+    "compound_id": "CMP002",
+    "compound_name": "Caffeine",
+    "smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
+    "molecular_formula": "C8H10N4O2",
+    "molecular_weight": 194.19,
+    "validation_status": "PASS",
+    "chiral_centers": 0,
+    "stereochemistry_notes": "Planar fused heterocycle; no tetrahedral chiral centers; multiple carbonyl and tertiary nitrogen environments.",
+    "temperature_c": 22.0,
+    "solvent": "Water",
+    "reaction_time_hr": 1.0,
+    "ph": 6.8,
+    "source_project": "Project 5",
+    "last_updated": "2026-06-30",
+    "viewer_ready": true,
+    "reaction_name": "Caffeine Protonation Equilibrium (Conceptual Playback)",
+    "reactants": ["Caffeine", "H+"],
+    "products": ["Protonated Caffeine"],
+    "transition_state_label": "Proton Transfer Transition State",
+    "catalyst": "Acidic medium",
+    "pressure_bar": 1.0,
+    "expected_yield_pct": 92.0,
+    "confidence_score": 0.86,
+    "provenance_type": "ML-Predicted",
+    "activation_energy_kj_mol": 24.8,
+    "activation_energy_kcal_mol": 5.928,
+    "delta_h_kj_mol": -6.4,
+    "delta_g_kj_mol": -3.1,
+    "mechanism_steps": [
+      {
+        "step_index": 0,
+        "step_label": "Neutral State",
+        "stage": "reactant",
+        "description": "Neutral caffeine before proton transfer.",
+        "smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
+        "relative_energy_kj_mol": 0.0,
+        "highlight_atoms": [1, 3, 6],
+        "highlight_bonds": [],
+        "bond_events": [],
+        "transition_state": false
+      },
+      {
+        "step_index": 1,
+        "step_label": "Proton Approach",
+        "stage": "intermediate",
+        "description": "Approach of proton donor toward the favored nitrogen site.",
+        "smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
+        "relative_energy_kj_mol": 10.7,
+        "highlight_atoms": [1, 3],
+        "highlight_bonds": [],
+        "bond_events": [
+          {
+            "type": "approach",
+            "description": "Proton donor aligns with heterocyclic nitrogen."
+          }
+        ],
+        "transition_state": false
+      },
+      {
+        "step_index": 2,
+        "step_label": "Transition State",
+        "stage": "transition",
+        "description": "Maximum barrier during proton transfer.",
+        "smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
+        "relative_energy_kj_mol": 24.8,
+        "highlight_atoms": [1, 3],
+        "highlight_bonds": [],
+        "bond_events": [
+          {
+            "type": "proton-transfer",
+            "description": "Charge redistribution around nitrogen center."
+          }
+        ],
+        "transition_state": true
+      },
+      {
+        "step_index": 3,
+        "step_label": "Protonated State",
+        "stage": "product",
+        "description": "Product-side protonated caffeine representation.",
+        "smiles": "Cn1c[nH+]c2n(C)c(=O)n(C)c(=O)c12",
+        "relative_energy_kj_mol": -6.4,
+        "highlight_atoms": [1],
+        "highlight_bonds": [],
+        "bond_events": [
+          {
+            "type": "product",
+            "description": "Protonated heterocycle stabilized in aqueous environment."
+          }
+        ],
+        "transition_state": false
+      }
+    ],
+    "energy_profile": [
+      {
+        "step_index": 0,
+        "step_label": "Neutral State",
+        "stage": "reactant",
+        "energy_kj_mol": 0.0,
+        "energy_kcal_mol": 0.0,
+        "activation_energy_kj_mol": 24.8,
+        "activation_energy_kcal_mol": 5.928,
+        "delta_h_kj_mol": -6.4,
+        "delta_g_kj_mol": -3.1,
+        "is_transition_state": false
+      },
+      {
+        "step_index": 1,
+        "step_label": "Proton Approach",
+        "stage": "intermediate",
+        "energy_kj_mol": 10.7,
+        "energy_kcal_mol": 2.557,
+        "activation_energy_kj_mol": 24.8,
+        "activation_energy_kcal_mol": 5.928,
+        "delta_h_kj_mol": -6.4,
+        "delta_g_kj_mol": -3.1,
+        "is_transition_state": false
+      },
+      {
+        "step_index": 2,
+        "step_label": "Transition State",
+        "stage": "transition",
+        "energy_kj_mol": 24.8,
+        "energy_kcal_mol": 5.928,
+        "activation_energy_kj_mol": 24.8,
+        "activation_energy_kcal_mol": 5.928,
+        "delta_h_kj_mol": -6.4,
+        "delta_g_kj_mol": -3.1,
+        "is_transition_state": true
+      },
+      {
+        "step_index": 3,
+        "step_label": "Protonated State",
+        "stage": "product",
+        "energy_kj_mol": -6.4,
+        "energy_kcal_mol": -1.53,
+        "activation_energy_kj_mol": 24.8,
+        "activation_energy_kcal_mol": 5.928,
+        "delta_h_kj_mol": -6.4,
+        "delta_g_kj_mol": -3.1,
+        "is_transition_state": false
+      }
+    ],
+    "trajectory_frames": [
+      {
+        "frame_id": "CMP002_frame_0",
+        "step_index": 0,
+        "step_label": "Neutral State",
+        "stage": "reactant",
+        "smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
+        "energy_kj_mol": 0.0,
+        "energy_kcal_mol": 0.0,
+        "delta_h_kj_mol": -6.4,
+        "delta_g_kj_mol": -3.1,
+        "is_transition_state": false,
+        "highlight_atoms": [1, 3, 6],
+        "highlight_bonds": [],
+        "bond_events": [],
+        "playback_note": "Neutral caffeine reference state.",
+        "conformer_id": "CMP002_conf_A",
+        "viewer_ready": true
+      },
+      {
+        "frame_id": "CMP002_frame_1",
+        "step_index": 1,
+        "step_label": "Proton Approach",
+        "stage": "intermediate",
+        "smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
+        "energy_kj_mol": 10.7,
+        "energy_kcal_mol": 2.557,
+        "delta_h_kj_mol": -6.4,
+        "delta_g_kj_mol": -3.1,
+        "is_transition_state": false,
+        "highlight_atoms": [1, 3],
+        "highlight_bonds": [],
+        "bond_events": [
+          {
+            "type": "approach",
+            "description": "Acid partner approaching protonation site."
+          }
+        ],
+        "playback_note": "Pre-transition proton transfer alignment.",
+        "conformer_id": "CMP002_conf_B",
+        "viewer_ready": true
+      },
+      {
+        "frame_id": "CMP002_frame_2",
+        "step_index": 2,
+        "step_label": "Transition State",
+        "stage": "transition",
+        "smiles": "Cn1cnc2n(C)c(=O)n(C)c(=O)c12",
+        "energy_kj_mol": 24.8,
+        "energy_kcal_mol": 5.928,
+        "delta_h_kj_mol": -6.4,
+        "delta_g_kj_mol": -3.1,
+        "is_transition_state": true,
+        "highlight_atoms": [1, 3],
+        "highlight_bonds": [],
+        "bond_events": [
+          {
+            "type": "ts",
+            "description": "Transient proton-shared configuration."
+          }
+        ],
+        "playback_note": "Highest barrier along proton transfer coordinate.",
+        "conformer_id": "CMP002_conf_TS",
+        "viewer_ready": true
+      },
+      {
+        "frame_id": "CMP002_frame_3",
+        "step_index": 3,
+        "step_label": "Protonated State",
+        "stage": "product",
+        "smiles": "Cn1c[nH+]c2n(C)c(=O)n(C)c(=O)c12",
+        "energy_kj_mol": -6.4,
+        "energy_kcal_mol": -1.53,
+        "delta_h_kj_mol": -6.4,
+        "delta_g_kj_mol": -3.1,
+        "is_transition_state": false,
+        "highlight_atoms": [1],
+        "highlight_bonds": [],
+        "bond_events": [
+          {
+            "type": "product",
+            "description": "Protonated product-side structure."
+          }
+        ],
+        "playback_note": "Product-side protonated state.",
+        "conformer_id": "CMP002_conf_P",
+        "viewer_ready": true
+      }
+    ],
+    "conformers": [
+      {
+        "conformer_id": "CMP002_conf_A",
+        "frame_id": "CMP002_frame_0",
+        "step_label": "Neutral State",
+        "source": "experimental-inspired",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "ball-and-stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 0.0,
+        "rmsd_reference": 0.0,
+        "export_formats": ["mol", "xyz", "pdb"]
+      },
+      {
+        "conformer_id": "CMP002_conf_B",
+        "frame_id": "CMP002_frame_1",
+        "step_label": "Proton Approach",
+        "source": "trajectory-derived",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 1.4,
+        "rmsd_reference": 0.31,
+        "export_formats": ["mol", "xyz", "pdb"]
+      },
+      {
+        "conformer_id": "CMP002_conf_TS",
+        "frame_id": "CMP002_frame_2",
+        "step_label": "Transition State",
+        "source": "conceptual-ts",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "ball-and-stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 4.8,
+        "rmsd_reference": 0.59,
+        "export_formats": ["mol", "xyz", "pdb"]
+      },
+      {
+        "conformer_id": "CMP002_conf_P",
+        "frame_id": "CMP002_frame_3",
+        "step_label": "Protonated State",
+        "source": "product-state",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "ball-and-stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 0.9,
+        "rmsd_reference": 0.22,
+        "export_formats": ["mol", "xyz", "pdb"]
+      }
+    ],
+    "bond_metadata": [
+      {
+        "compound_id": "CMP002",
+        "bond_type": "C=O",
+        "atoms": "C7-O8",
+        "bond_order": "double",
+        "length_angstrom": 1.224,
+        "source": "reference",
+        "step_scope": "baseline"
+      },
+      {
+        "compound_id": "CMP002",
+        "bond_type": "C-N",
+        "atoms": "C3-N4",
+        "bond_order": "partial-double",
+        "length_angstrom": 1.345,
+        "source": "reference",
+        "step_scope": "baseline"
+      },
+      {
+        "compound_id": "CMP002",
+        "bond_type": "C-C",
+        "atoms": "C1-C2",
+        "bond_order": "aromatic-like",
+        "length_angstrom": 1.383,
+        "source": "reference",
+        "step_scope": "baseline"
+      }
+    ],
+    "interactive_controls": {
+      "play_enabled": true,
+      "pause_enabled": true,
+      "next_step_enabled": true,
+      "previous_step_enabled": true,
+      "trajectory_slider_enabled": true,
+      "energy_highlight_sync": true,
+      "auto_rotate_3d": false,
+      "style_options": ["stick", "ball-and-stick", "sphere"],
+      "export_options": ["json", "csv", "md", "mol", "xyz", "pdb"],
+      "default_playback_speed_ms": 800
+    }
+  },
+  {
+    "compound_id": "CMP003",
+    "compound_name": "Ethanol",
+    "smiles": "CCO",
+    "molecular_formula": "C2H6O",
+    "molecular_weight": 46.07,
+    "validation_status": "PASS",
+    "chiral_centers": 0,
+    "stereochemistry_notes": "Simple alcohol record used as a lighter demo case for pathway playback and control-center behavior.",
+    "temperature_c": 140.0,
+    "solvent": "Neat ethanol",
+    "reaction_time_hr": 0.5,
+    "ph": 7.0,
+    "source_project": "Project 6",
+    "last_updated": "2026-06-30",
+    "viewer_ready": true,
+    "reaction_name": "Ethanol Dehydration (Conceptual Playback)",
+    "reactants": ["Ethanol"],
+    "products": ["Ethene", "Water"],
+    "transition_state_label": "Elimination Transition State",
+    "catalyst": "Acidic dehydration conditions",
+    "pressure_bar": 1.0,
+    "expected_yield_pct": 71.0,
+    "confidence_score": 0.79,
+    "provenance_type": "ML-Predicted",
+    "activation_energy_kj_mol": 82.3,
+    "activation_energy_kcal_mol": 19.668,
+    "delta_h_kj_mol": 12.7,
+    "delta_g_kj_mol": 7.4,
+    "mechanism_steps": [
+      {
+        "step_index": 0,
+        "step_label": "Reactant State",
+        "stage": "reactant",
+        "description": "Neutral ethanol before dehydration activation.",
+        "smiles": "CCO",
+        "relative_energy_kj_mol": 0.0,
+        "highlight_atoms": [0, 1, 2],
+        "highlight_bonds": [[1, 2]],
+        "bond_events": [],
+        "transition_state": false
+      },
+      {
+        "step_index": 1,
+        "step_label": "Activated Alcohol",
+        "stage": "intermediate",
+        "description": "Alcohol oxygen becomes activated under acidic conditions.",
+        "smiles": "CCO",
+        "relative_energy_kj_mol": 25.1,
+        "highlight_atoms": [1, 2],
+        "highlight_bonds": [[1, 2]],
+        "bond_events": [
+          {
+            "type": "activation",
+            "description": "Leaving-group potential increases at oxygen center."
+          }
+        ],
+        "transition_state": false
+      },
+      {
+        "step_index": 2,
+        "step_label": "Transition State",
+        "stage": "transition",
+        "description": "Elimination barrier associated with C-O bond cleavage and alkene formation.",
+        "smiles": "CCO",
+        "relative_energy_kj_mol": 82.3,
+        "highlight_atoms": [0, 1, 2],
+        "highlight_bonds": [[0, 1], [1, 2]],
+        "bond_events": [
+          {
+            "type": "partial-bond-breaking",
+            "description": "C-O bond cleavage underway."
+          },
+          {
+            "type": "partial-bond-forming",
+            "description": "Alkene character emerging between carbons."
+          }
+        ],
+        "transition_state": true
+      },
+      {
+        "step_index": 3,
+        "step_label": "Product State",
+        "stage": "product",
+        "description": "Ethene and water on the product side.",
+        "smiles": "C=C",
+        "relative_energy_kj_mol": 12.7,
+        "highlight_atoms": [0, 1],
+        "highlight_bonds": [[0, 1]],
+        "bond_events": [
+          {
+            "type": "product",
+            "description": "Alkene formed after elimination."
+          }
+        ],
+        "transition_state": false
+      }
+    ],
+    "energy_profile": [
+      {
+        "step_index": 0,
+        "step_label": "Reactant State",
+        "stage": "reactant",
+        "energy_kj_mol": 0.0,
+        "energy_kcal_mol": 0.0,
+        "activation_energy_kj_mol": 82.3,
+        "activation_energy_kcal_mol": 19.668,
+        "delta_h_kj_mol": 12.7,
+        "delta_g_kj_mol": 7.4,
+        "is_transition_state": false
+      },
+      {
+        "step_index": 1,
+        "step_label": "Activated Alcohol",
+        "stage": "intermediate",
+        "energy_kj_mol": 25.1,
+        "energy_kcal_mol": 5.998,
+        "activation_energy_kj_mol": 82.3,
+        "activation_energy_kcal_mol": 19.668,
+        "delta_h_kj_mol": 12.7,
+        "delta_g_kj_mol": 7.4,
+        "is_transition_state": false
+      },
+      {
+        "step_index": 2,
+        "step_label": "Transition State",
+        "stage": "transition",
+        "energy_kj_mol": 82.3,
+        "energy_kcal_mol": 19.668,
+        "activation_energy_kj_mol": 82.3,
+        "activation_energy_kcal_mol": 19.668,
+        "delta_h_kj_mol": 12.7,
+        "delta_g_kj_mol": 7.4,
+        "is_transition_state": true
+      },
+      {
+        "step_index": 3,
+        "step_label": "Product State",
+        "stage": "product",
+        "energy_kj_mol": 12.7,
+        "energy_kcal_mol": 3.035,
+        "activation_energy_kj_mol": 82.3,
+        "activation_energy_kcal_mol": 19.668,
+        "delta_h_kj_mol": 12.7,
+        "delta_g_kj_mol": 7.4,
+        "is_transition_state": false
+      }
+    ],
+    "trajectory_frames": [
+      {
+        "frame_id": "CMP003_frame_0",
+        "step_index": 0,
+        "step_label": "Reactant State",
+        "stage": "reactant",
+        "smiles": "CCO",
+        "energy_kj_mol": 0.0,
+        "energy_kcal_mol": 0.0,
+        "delta_h_kj_mol": 12.7,
+        "delta_g_kj_mol": 7.4,
+        "is_transition_state": false,
+        "highlight_atoms": [0, 1, 2],
+        "highlight_bonds": [[1, 2]],
+        "bond_events": [],
+        "playback_note": "Starting alcohol structure.",
+        "conformer_id": "CMP003_conf_A",
+        "viewer_ready": true
+      },
+      {
+        "frame_id": "CMP003_frame_1",
+        "step_index": 1,
+        "step_label": "Activated Alcohol",
+        "stage": "intermediate",
+        "smiles": "CCO",
+        "energy_kj_mol": 25.1,
+        "energy_kcal_mol": 5.998,
+        "delta_h_kj_mol": 12.7,
+        "delta_g_kj_mol": 7.4,
+        "is_transition_state": false,
+        "highlight_atoms": [1, 2],
+        "highlight_bonds": [[1, 2]],
+        "bond_events": [
+          {
+            "type": "activation",
+            "description": "Hydroxyl site primed for elimination."
+          }
+        ],
+        "playback_note": "Activated pre-elimination geometry.",
+        "conformer_id": "CMP003_conf_B",
+        "viewer_ready": true
+      },
+      {
+        "frame_id": "CMP003_frame_2",
+        "step_index": 2,
+        "step_label": "Transition State",
+        "stage": "transition",
+        "smiles": "CCO",
+        "energy_kj_mol": 82.3,
+        "energy_kcal_mol": 19.668,
+        "delta_h_kj_mol": 12.7,
+        "delta_g_kj_mol": 7.4,
+        "is_transition_state": true,
+        "highlight_atoms": [0, 1, 2],
+        "highlight_bonds": [[0, 1], [1, 2]],
+        "bond_events": [
+          {
+            "type": "ts",
+            "description": "Elimination transition-state region."
+          }
+        ],
+        "playback_note": "Peak barrier for dehydration.",
+        "conformer_id": "CMP003_conf_TS",
+        "viewer_ready": true
+      },
+      {
+        "frame_id": "CMP003_frame_3",
+        "step_index": 3,
+        "step_label": "Product State",
+        "stage": "product",
+        "smiles": "C=C",
+        "energy_kj_mol": 12.7,
+        "energy_kcal_mol": 3.035,
+        "delta_h_kj_mol": 12.7,
+        "delta_g_kj_mol": 7.4,
+        "is_transition_state": false,
+        "highlight_atoms": [0, 1],
+        "highlight_bonds": [[0, 1]],
+        "bond_events": [
+          {
+            "type": "product",
+            "description": "Alkene product-side state."
+          }
+        ],
+        "playback_note": "Elimination product representation.",
+        "conformer_id": "CMP003_conf_P",
+        "viewer_ready": true
+      }
+    ],
+    "conformers": [
+      {
+        "conformer_id": "CMP003_conf_A",
+        "frame_id": "CMP003_frame_0",
+        "step_label": "Reactant State",
+        "source": "baseline",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "ball-and-stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 0.0,
+        "rmsd_reference": 0.0,
+        "export_formats": ["mol", "xyz", "pdb"]
+      },
+      {
+        "conformer_id": "CMP003_conf_B",
+        "frame_id": "CMP003_frame_1",
+        "step_label": "Activated Alcohol",
+        "source": "trajectory-derived",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 1.2,
+        "rmsd_reference": 0.28,
+        "export_formats": ["mol", "xyz", "pdb"]
+      },
+      {
+        "conformer_id": "CMP003_conf_TS",
+        "frame_id": "CMP003_frame_2",
+        "step_label": "Transition State",
+        "source": "conceptual-ts",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "ball-and-stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 5.9,
+        "rmsd_reference": 0.74,
+        "export_formats": ["mol", "xyz", "pdb"]
+      },
+      {
+        "conformer_id": "CMP003_conf_P",
+        "frame_id": "CMP003_frame_3",
+        "step_label": "Product State",
+        "source": "product-state",
+        "embedding_method": "ETKDGv3",
+        "optimization_method": "MMFF94",
+        "viewer_style": "stick",
+        "coordinates_ready": false,
+        "relative_conformer_energy_kj_mol": 0.8,
+        "rmsd_reference": 0.21,
+        "export_formats": ["mol", "xyz", "pdb"]
+      }
+    ],
+    "bond_metadata": [
+      {
+        "compound_id": "CMP003",
+        "bond_type": "C-C",
+        "atoms": "C0-C1",
+        "bond_order": "single",
+        "length_angstrom": 1.521,
+        "source": "reference",
+        "step_scope": "reactant"
+      },
+      {
+        "compound_id": "CMP003",
+        "bond_type": "C-O",
+        "atoms": "C1-O2",
+        "bond_order": "single",
+        "length_angstrom": 1.430,
+        "source": "reference",
+        "step_scope": "reactant"
+      },
+      {
+        "compound_id": "CMP003",
+        "bond_type": "C=C",
+        "atoms": "C0-C1",
+        "bond_order": "double",
+        "length_angstrom": 1.339,
+        "source": "product-estimate",
+        "step_scope": "product"
+      }
+    ],
+    "interactive_controls": {
+      "play_enabled": true,
+      "pause_enabled": true,
+      "next_step_enabled": true,
+      "previous_step_enabled": true,
+      "trajectory_slider_enabled": true,
+      "energy_highlight_sync": true,
+      "auto_rotate_3d": false,
+      "style_options": ["stick", "ball-and-stick", "sphere"],
+      "export_options": ["json", "csv", "md", "mol", "xyz", "pdb"],
+      "default_playback_speed_ms": 1000
+    }
+  }
+]

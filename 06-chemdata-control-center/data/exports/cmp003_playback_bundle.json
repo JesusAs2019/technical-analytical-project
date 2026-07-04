@@ -1,0 +1,308 @@
+[
+  {
+    "compound_id": "CMP003",
+    "compound_name": "Ethanol",
+    "step_label": "Reactant State",
+    "stage": "reactant",
+    "frame_id": "CMP003_frame_0",
+    "conformer_id": "CMP003_conf_A",
+    "smiles": "CCO",
+    "molblock": "\n     RDKit          3D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n   -0.8878    0.1038    0.1371 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4630   -0.2314   -0.4606 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4786    0.5269    0.1800 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6836   -0.4603   -0.3571 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9053   -0.1263    1.2074 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0981    1.1738    0.0381 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6914   -1.2949   -0.3425 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4797    0.0088   -1.5276 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4621    0.2995    1.1253 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  1  0\n  1  4  1  0\n  1  5  1  0\n  1  6  1  0\n  2  7  1  0\n  2  8  1  0\n  3  9  1  0\nM  END\n",
+    "energy_kj_mol": 0.0,
+    "energy_kcal_mol": 0.0,
+    "is_transition_state": false,
+    "playback_note": "Starting alcohol structure.",
+    "highlight_atoms": [
+      0,
+      1,
+      2
+    ],
+    "highlight_bonds": [
+      [
+        1,
+        2
+      ]
+    ],
+    "atom_overlays": [
+      {
+        "atom_index": 0,
+        "label": "C0",
+        "x": -0.8877855662411703,
+        "y": 0.10382414172237228,
+        "z": 0.13708011997970065,
+        "color": "#dc2626",
+        "radius": 0.38
+      },
+      {
+        "atom_index": 1,
+        "label": "C1",
+        "x": 0.4629559662764268,
+        "y": -0.23135231294885397,
+        "z": -0.46056582785542377,
+        "color": "#dc2626",
+        "radius": 0.38
+      },
+      {
+        "atom_index": 2,
+        "label": "O2",
+        "x": 1.4786421702954056,
+        "y": 0.5269302435666672,
+        "z": 0.1799762318920244,
+        "color": "#dc2626",
+        "radius": 0.38
+      }
+    ],
+    "bond_overlays": [
+      {
+        "bond_pair": [
+          1,
+          2
+        ],
+        "start": {
+          "x": 0.4629559662764268,
+          "y": -0.23135231294885397,
+          "z": -0.46056582785542377
+        },
+        "end": {
+          "x": 1.4786421702954056,
+          "y": 0.5269302435666672,
+          "z": 0.1799762318920244
+        },
+        "color": "#2563eb",
+        "radius": 0.12
+      }
+    ],
+    "style": "ball-and-stick",
+    "viewer_ready": true
+  },
+  {
+    "compound_id": "CMP003",
+    "compound_name": "Ethanol",
+    "step_label": "Activated Alcohol",
+    "stage": "intermediate",
+    "frame_id": "CMP003_frame_1",
+    "conformer_id": "CMP003_conf_B",
+    "smiles": "CCO",
+    "molblock": "\n     RDKit          3D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n   -0.8338   -0.3366    0.0954 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3532    0.5950   -0.0349 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4404   -0.0866   -0.6435 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1321   -0.7203   -0.8858 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6859    0.1784    0.5477 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5788   -1.2045    0.7124 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0976    1.4557   -0.6597 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6732    0.9625    0.9447 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6662   -0.8436   -0.0764 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  1  0\n  1  4  1  0\n  1  5  1  0\n  1  6  1  0\n  2  7  1  0\n  2  8  1  0\n  3  9  1  0\nM  END\n",
+    "energy_kj_mol": 25.1,
+    "energy_kcal_mol": 5.998,
+    "is_transition_state": false,
+    "playback_note": "Activated pre-elimination geometry.",
+    "highlight_atoms": [
+      1,
+      2
+    ],
+    "highlight_bonds": [
+      [
+        1,
+        2
+      ]
+    ],
+    "atom_overlays": [
+      {
+        "atom_index": 1,
+        "label": "C1",
+        "x": 0.3532240931463071,
+        "y": 0.5949666142186335,
+        "z": -0.03494861556030766,
+        "color": "#dc2626",
+        "radius": 0.38
+      },
+      {
+        "atom_index": 2,
+        "label": "O2",
+        "x": 1.4404258519399358,
+        "y": -0.08660931859824621,
+        "z": -0.6435120429751503,
+        "color": "#dc2626",
+        "radius": 0.38
+      }
+    ],
+    "bond_overlays": [
+      {
+        "bond_pair": [
+          1,
+          2
+        ],
+        "start": {
+          "x": 0.3532240931463071,
+          "y": 0.5949666142186335,
+          "z": -0.03494861556030766
+        },
+        "end": {
+          "x": 1.4404258519399358,
+          "y": -0.08660931859824621,
+          "z": -0.6435120429751503
+        },
+        "color": "#2563eb",
+        "radius": 0.12
+      }
+    ],
+    "style": "ball-and-stick",
+    "viewer_ready": true
+  },
+  {
+    "compound_id": "CMP003",
+    "compound_name": "Ethanol",
+    "step_label": "Transition State",
+    "stage": "transition",
+    "frame_id": "CMP003_frame_2",
+    "conformer_id": "CMP003_conf_TS",
+    "smiles": "CCO",
+    "molblock": "\n     RDKit          3D\n\n  9  8  0  0  0  0  0  0  0  0999 V2000\n   -0.8509    0.3060   -0.0029 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4305   -0.4339   -0.3262 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.5430    0.2621    0.2168 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9877    0.3882    1.0804 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.8165    1.3267   -0.3977 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7166   -0.2089   -0.4287 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4139   -1.4468    0.0875 H   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5684   -0.5056   -1.4089 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.4159    0.3122    1.1796 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  1  0\n  1  4  1  0\n  1  5  1  0\n  1  6  1  0\n  2  7  1  0\n  2  8  1  0\n  3  9  1  0\nM  END\n",
+    "energy_kj_mol": 82.3,
+    "energy_kcal_mol": 19.668,
+    "is_transition_state": true,
+    "playback_note": "Peak barrier for dehydration.",
+    "highlight_atoms": [
+      0,
+      1,
+      2
+    ],
+    "highlight_bonds": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "atom_overlays": [
+      {
+        "atom_index": 0,
+        "label": "C0",
+        "x": -0.8509181997635284,
+        "y": 0.30603934277908834,
+        "z": -0.002870182530799061,
+        "color": "#dc2626",
+        "radius": 0.38
+      },
+      {
+        "atom_index": 1,
+        "label": "C1",
+        "x": 0.43047715432987954,
+        "y": -0.4339166895416786,
+        "z": -0.3261589714497342,
+        "color": "#dc2626",
+        "radius": 0.38
+      },
+      {
+        "atom_index": 2,
+        "label": "O2",
+        "x": 1.542956574011951,
+        "y": 0.2621087506295665,
+        "z": 0.2168361190112256,
+        "color": "#dc2626",
+        "radius": 0.38
+      }
+    ],
+    "bond_overlays": [
+      {
+        "bond_pair": [
+          0,
+          1
+        ],
+        "start": {
+          "x": -0.8509181997635284,
+          "y": 0.30603934277908834,
+          "z": -0.002870182530799061
+        },
+        "end": {
+          "x": 0.43047715432987954,
+          "y": -0.4339166895416786,
+          "z": -0.3261589714497342
+        },
+        "color": "#2563eb",
+        "radius": 0.12
+      },
+      {
+        "bond_pair": [
+          1,
+          2
+        ],
+        "start": {
+          "x": 0.43047715432987954,
+          "y": -0.4339166895416786,
+          "z": -0.3261589714497342
+        },
+        "end": {
+          "x": 1.542956574011951,
+          "y": 0.2621087506295665,
+          "z": 0.2168361190112256
+        },
+        "color": "#2563eb",
+        "radius": 0.12
+      }
+    ],
+    "style": "ball-and-stick",
+    "viewer_ready": true
+  },
+  {
+    "compound_id": "CMP003",
+    "compound_name": "Ethanol",
+    "step_label": "Product State",
+    "stage": "product",
+    "frame_id": "CMP003_frame_3",
+    "conformer_id": "CMP003_conf_P",
+    "smiles": "C=C",
+    "molblock": "\n     RDKit          3D\n\n  6  5  0  0  0  0  0  0  0  0999 V2000\n   -0.6667   -0.0405    0.0027 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6667    0.0405   -0.0027 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2814    0.8499    0.0899 H   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1696   -0.9989   -0.0799 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1696    0.9989    0.0799 H   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2814   -0.8499   -0.0899 H   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0\n  1  3  1  0\n  1  4  1  0\n  2  5  1  0\n  2  6  1  0\nM  END\n",
+    "energy_kj_mol": 12.7,
+    "energy_kcal_mol": 3.035,
+    "is_transition_state": false,
+    "playback_note": "Elimination product representation.",
+    "highlight_atoms": [
+      0,
+      1
+    ],
+    "highlight_bonds": [
+      [
+        0,
+        1
+      ]
+    ],
+    "atom_overlays": [
+      {
+        "atom_index": 0,
+        "label": "C0",
+        "x": -0.6666562553814452,
+        "y": -0.04054421863188445,
+        "z": 0.0027365587721916895,
+        "color": "#dc2626",
+        "radius": 0.38
+      },
+      {
+        "atom_index": 1,
+        "label": "C1",
+        "x": 0.6666563158424393,
+        "y": 0.04054423923350023,
+        "z": -0.0027366905908399355,
+        "color": "#dc2626",
+        "radius": 0.38
+      }
+    ],
+    "bond_overlays": [
+      {
+        "bond_pair": [
+          0,
+          1
+        ],
+        "start": {
+          "x": -0.6666562553814452,
+          "y": -0.04054421863188445,
+          "z": 0.0027365587721916895
+        },
+        "end": {
+          "x": 0.6666563158424393,
+          "y": 0.04054423923350023,
+          "z": -0.0027366905908399355
+        },
+        "color": "#2563eb",
+        "radius": 0.12
+      }
+    ],
+    "style": "ball-and-stick",
+    "viewer_ready": true
+  }
+]
