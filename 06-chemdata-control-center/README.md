@@ -163,10 +163,10 @@ A Streamlit-based molecular analytics dashboard that acts as the front-end contr
 ![Project 6 Molecular Control Center](./assets/screenshots/Aspirin_2D_3D.png)
 
 ### Caffeine
-![Project 6 Molecular Control Center](./assets/screenshots/Caffeine_2D Molecular_Structure_&_3D_Molecular_viewer.png)
+![Project 6 Molecular Control Center](./assets/screenshots/Caffeine_2D%20Molecular_Structure_%26_3D_Molecular_viewer.png)
 
 ### Ethanol
-![Project 6 Molecular Control Center](./assets/screenshots/Ethanol_2D_Molecular Structure_&_3D_Molecular_Viewer.png)
+![Project 6 Molecular Control Center](./assets/screenshots/Ethanol_2D_Molecular%20Structure_%26_3D_Molecular_Viewer.png)
 
 ##### 2. Reaction Pathway & Energy Intelligence
 
@@ -174,10 +174,10 @@ A Streamlit-based molecular analytics dashboard that acts as the front-end contr
 ![Reaction Pathway & Energy Intelligence](./assets/screenshots/Aspirin_Reaction_Energy_pathway.png)
 
 ### Caffeine
-![Reaction Pathway & Energy Intelligence](./assets/screenshots/Caffeine_Reaction_Pathway_&_Energy_Intelligence.png)
+![Reaction Pathway & Energy Intelligence](./assets/screenshots/Caffeine_Reaction_Pathway_%26_Energy_Intelligence.png)
 
 ### Ethanol
-![Reaction Pathway & Energy Intelligence](./assets/screenshots/Ethanol_ReactionPathway_&_Energy_Intelligence.png)
+![Reaction Pathway & Energy Intelligence](./assets/screenshots/Ethanol_ReactionPathway_%26_Energy_Intelligence.png)
 
 ##### 3. Conceptual Reaction Playback
 
@@ -192,6 +192,7 @@ A Streamlit-based molecular analytics dashboard that acts as the front-end contr
 
 ### Ethanol
 ![Ethanol Conceptual Reaction Playback](./assets/screenshots/Ethanol_Conceptual_Reaction_Animation.png)
+
 
 These screenshots illustrate the dashboard evolution from viewer layout cleanup toward a more polished reaction-analysis interface. Source Source Source Source
 
