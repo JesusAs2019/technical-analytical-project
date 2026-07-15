@@ -151,19 +151,47 @@ Earlier Viewer Framing Iteration
 
 Reaction Pathway & Energy Intelligence
 Reaction Pathway and Energy Intelligence
+### ⚛️ Project 6: ChemData Control Center
 
-### Conceptual Reaction Playback
+A Streamlit-based molecular analytics dashboard that acts as the front-end control center for validated chemistry records. It combines 2D/3D visualization, reaction-step interpretation, energy-profile analysis, and conceptual reaction playback into a portfolio-ready analytical interface.
 
-![Conceptual Reaction Playback — Ethanol]"C:\Users\New Owner\OneDrive\Pictures\Screenshots\Ethanol_image.png")
+#### 🖥️ Interface Highlights
+
+##### 1. Project 6 Molecular Control Center
+
+### Aspirin
+![Project 6 Molecular Control Center](./assets/screenshots/Aspirin_2D_3D.png)
+
+### Caffeine
+![Project 6 Molecular Control Center](./assets/screenshots/Caffeine_2D Molecular_Structure_&_3D_Molecular_viewer.png)
+
+### Ethanol
+![Project 6 Molecular Control Center](./assets/screenshots/Ethanol_2D_Molecular Structure_&_3D_Molecular_Viewer.png)
+
+##### 2. Reaction Pathway & Energy Intelligence
+
+### Aspirin
+![Reaction Pathway & Energy Intelligence](./assets/screenshots/Aspirin_Reaction_Energy_pathway.png)
+
+### Caffeine
+![Reaction Pathway & Energy Intelligence](./assets/screenshots/Caffeine_Reaction_Pathway_&_Energy_Intelligence.png)
+
+### Ethanol
+![Reaction Pathway & Energy Intelligence](./assets/screenshots/Ethanol_ReactionPathway_&_Energy_Intelligence.png)
+
+##### 3. Conceptual Reaction Playback
 
 ### Aspirin Hydrolysis Playback
-
-![Aspirin Hydrolysis Playback]("C:\Users\New Owner\OneDrive\Pictures\Screenshots\Aspirin_image.png")
+![Aspirin Hydrolysis Playback](./assets/screenshots/Aspirin_2D-3D.png)
+![Aspirin Hydrolysis Playback](./assets/screenshots/Aspirin_Conceptual_Reaction_Animation1.png)
+![Aspirin Hydrolysis Playback](./assets/screenshots/Aspirin_Conceptual_Reaction_Animation2.png)
 
 ### Caffeine Protonation Playback
+![Caffeine Protonation Playback](./assets/screenshots/Caffeine_Conceptual_Reaction_Animation2.png)
+![Caffeine Protonation Playback](./assets/screenshots/Caffeine_Conceptual_Reaction_Animation.png)
 
-![Caffeine Protonation Playback]("C:\Users\New Owner\OneDrive\Pictures\Screenshots\Caffeine_image.png")
-
+### Ethanol
+![Ethanol Conceptual Reaction Playback](./assets/screenshots/Ethanol_Conceptual_Reaction_Animation.png)
 
 These screenshots illustrate the dashboard evolution from viewer layout cleanup toward a more polished reaction-analysis interface. Source Source Source Source
 
@@ -172,6 +200,7 @@ Testing
 Run the smoke tests with:
 
 Copypytest tests/test_app.py -v
+
 Expected result: passing checks for data loading, state handling, rendering setup, and reaction-step support.
 
 Why This Project Matters
