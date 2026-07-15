@@ -1,84 +1,181 @@
 # Data Engineering Portfolio
 
-**MSc Chemistry → Data Engineer:**
+**MSc Chemistry → Data Engineer**
 
-R&D , Biotech & Pharmaceutical domain expertise + Modern data engineering skills + AI/ML integration
+R&D, Biotech, Pharmaceutical, and Scientific Data domain expertise combined with modern data engineering, validation, analytics, and AI-assisted workflow development.
 
 ---
 
 ## 👨‍💼 About Me
 
-Data Engineer with strong chemistry Research background (MSc Chemistry) and teaching experience. Specialized in building data solutions for life sciences, combining domain knowledge with modern engineering practices.
+I am a data-focused technical professional with a strong scientific background in **Chemistry (MSc Chemistry)**, additional business and industrial exposure through **BSc Oil & Gas Management**, and teaching experience that helps me design clear, user-friendly solutions.
 
-**Unique Value Proposition:**
+My portfolio is built around the intersection of:
 
-- 🧪 Chemistry domain expertise (R&D, Life Science,pharmaceutical data validation)
-- 👨‍🏫 Teaching background (creating user-friendly solutions)
-- 🤖 AI/ML integration (LLM APIs, automation)
-- 📊 Production-ready code (type hints, logging, error handling)
+- **scientific domain expertise**
+- **data engineering workflows**
+- **validation and quality systems**
+- **analytics and visualization**
+- **AI-assisted reporting and summarization**
 
-**Tech Stack:**
+### Unique Value Proposition
 
-- **Languages:** Python 3.10+
-- **Data:** pandas, numpy, SQL (sqlite3)
-- **AI/ML:** OpenAI API, LLM integration
-- **Tools:** Git, VS Code, pytest
+- 🧪 **Chemistry and life-science domain expertise**  
+  Experience aligned with R&D, laboratory, and pharmaceutical-style data workflows
+
+- 👨‍🏫 **Teaching and communication background**  
+  Ability to translate technical complexity into accessible, structured solutions
+
+- 🤖 **AI-assisted workflow integration**  
+  Practical use of LLM-based summarization, automation, and analytical tooling
+
+- 📊 **Production-minded engineering approach**  
+  Focus on readability, documentation, validation logic, and reusable code structure
 
 ---
 
-## 🚀 Featured Projects
+## 🛠️ Core Tech Stack
+
+- **Languages:** Python 3.10+
+- **Data:** pandas, numpy, SQL, SQLite
+- **Validation / Testing:** pytest, Pydantic
+- **Scientific / Chemistry:** RDKit
+- **Dashboards / Visualization:** Streamlit, Plotly, py3Dmol, HTML/CSS/JavaScript
+- **AI / Automation:** LLM integration, document summarization workflows
+- **Tools:** Git, VS Code
+
+---
+
+## 🚀 Repository Overview
+
+This repository contains a set of portfolio projects that demonstrate a progression from:
+
+- structured data ingestion
+- ETL and transformation
+- quality validation
+- AI-assisted summarization
+- chemistry-specific analytics
+- relational storage
+- interactive dashboard development
+
+Each project is organized as a standalone portfolio piece with its own code, setup instructions, and documentation.
+
+---
+
+## 📂 Featured Projects
 
 ### 1️⃣ [LabData ETL Pipeline](./01-labdata-etl-pipeline)
 
-**Chemistry-aware ETL pipeline for pharmaceutical laboratory data:**
+A chemistry-aware ETL pipeline for pharmaceutical or laboratory-style records. This project focuses on transforming raw structured inputs into cleaner outputs with domain-aware checks and validation logic.
 
-- ✅ pH validation (0-14 scale with chemistry rules)
-- ✅ Temperature validation (physical constraints)
-- ✅ Concentration unit converter (mg/mL, µM, mM, g/L)
-- ✅ Data quality reporting
-- ✅ Production-ready error handling
+**Highlights**
+- pH validation with chemistry-aware rules
+- temperature and concentration checks
+- unit conversion support
+- structured quality reporting
+- production-style error handling
 
-**Technologies:** Python, pandas, sqlite3, type hints
-
-**Key Achievement:** 80% pass rate on 10-record test dataset with comprehensive validation
-
-[View Project →](./01-labdata-etl-pipeline)
+**Technologies:** Python, pandas, sqlite3, ETL patterns
 
 ---
 
 ### 2️⃣ [GenAI Research Summarizer](./02-genai-research-summarizer)
 
-**AI-powered research paper summarization tool for pharmaceutical literature:**
+An AI-assisted research summarization workflow for technical and scientific documents. This project demonstrates document handling, summarization design, and user-friendly explanation output.
 
-- 🤖 LLM API integration (OpenAI/Gemini compatible)
-- 📄 PDF text extraction
-- 🎓 Teaching mode (student-friendly summaries)
-- ⚡ Batch processing support
-- 🎭 Demo mode (works without API key)
+**Highlights**
+- LLM-compatible summarization workflow
+- PDF text extraction
+- teaching-mode summaries
+- batch-style processing support
+- demo-friendly operation
 
-**Technologies:** Python, OpenAI API, PyPDF2, python-dotenv
-
-**Key Achievement:** Reduces literature review time from 3 hours to 1 minute per paper
-
-[View Project →](./02-genai-research-summarizer)
+**Technologies:** Python, LLM integration, document processing, analytical summarization
 
 ---
 
 ### 3️⃣ [Pharma Data Quality Analyzer](./03-pharma-data-quality-analyzer)
 
-**Comprehensive data quality assessment for pharmaceutical datasets:**
+A pharmaceutical-style data quality and profiling project that evaluates dataset consistency, completeness, and anomaly patterns with domain-aware checks.
 
-- 📊 Statistical profiling (mean, median, std, distributions)
-- ✅ Quality scoring (completeness, accuracy, consistency, uniqueness)
-- 🔍 Anomaly detection (Z-score, IQR, domain rules)
-- 📈 Automated reporting
-- 🧪 Chemistry-specific validation
+**Highlights**
+- statistical profiling
+- quality scoring
+- anomaly detection
+- automated reporting
+- chemistry-aware validation logic
 
 **Technologies:** Python, pandas, numpy, statistical analysis
 
-**Key Achievement:** Analyzes 10,000 records in 2 seconds with 87.5% quality score
+---
 
-[View Project →](./03-pharma-data-quality-analyzer)
+### 4️⃣ [ChemData Validation Engine](./04-chemdata-validation-engine)
+
+A Python-based chemical data validation and molecular visualization project that ingests structured compound records, validates chemistry-specific fields, generates JSON outputs, and produces an analytical dashboard with 2D and 3D molecular views.
+
+**Highlights**
+- SMILES and molecular data validation
+- JSON report generation
+- 2D structure visualization
+- 3D molecular viewer
+- bond-length and bond-angle metrics dashboard
+
+**Technologies:** Python, RDKit, Pydantic, Pytest, HTML/CSS/JavaScript
+
+**Visual reference:** Project 4 dashboard layout and viewer screenshots [Source](https://www.genspark.ai/api/files/s/RwzrIJnl) [Source](https://www.genspark.ai/api/files/s/GtjicCbB)
+
+---
+
+### 5️⃣ [ChemData Relational Vault](./05-chemdata-relational-vault)
+
+A relational storage and export layer for validated chemistry records. This project demonstrates how structured scientific data can be persisted, synchronized, queried, and exported in reusable analytical formats.
+
+**Highlights**
+- relational schema for compound records
+- JSON seed-data ingestion
+- duplicate-safe synchronization
+- SQLAlchemy + SQLite workflow
+- CSV and Markdown export
+
+**Technologies:** Python, SQLAlchemy, SQLite, Pandas, Pytest
+
+---
+
+### 6️⃣ [ChemData Control Center](./06-chemdata-control-center)
+
+A Streamlit-based molecular analytics dashboard that acts as the front-end control center for validated chemistry records. It combines 2D/3D visualization, reaction-step interpretation, energy-profile analysis, and conceptual reaction playback into a portfolio-ready analytical interface.
+
+**Highlights**
+- chemistry record browsing and filtering
+- 2D molecular structure display
+- 3D molecular viewer
+- reaction pathway and energy intelligence
+- conceptual 2D reaction playback with frame controls
+- dashboard-style analytical presentation
+
+**Technologies:** Python, Streamlit, RDKit, Plotly, py3Dmol
+
+**Visual reference:** Project 6 dashboard and reaction playback screenshots  
+![Project 6 Molecular Control Center](https://www.genspark.ai/api/files/s/jsrmuGCQ)  
+![Reaction Pathway & Energy Intelligence](https://www.genspark.ai/api/files/s/Oovzqkxn)  
+![Conceptual Reaction Playback](https://www.genspark.ai/api/files/s/KZwUXF4c)
+
+---
+
+## 🔬 Highlighted Chemistry Workflow
+
+Projects **4**, **5**, and **6** form a connected chemistry analytics workflow inside this repository:
+
+### [Project 4 — ChemData Validation Engine](./04-chemdata-validation-engine)
+Validates structured chemical records, checks molecular data quality, and generates 2D/3D visualization-ready outputs.
+
+### [Project 5 — ChemData Relational Vault](./05-chemdata-relational-vault)
+Stores validated chemistry records in a relational structure, supports synchronization and export, and acts as a persistence layer for downstream analytics.
+
+### [Project 6 — ChemData Control Center](./06-chemdata-control-center)
+Provides the user-facing interactive dashboard with molecular views, reaction pathway insights, energy charts, and conceptual playback controls.
+
+Together, these projects demonstrate a complete progression from **validation → storage → interactive analytical presentation**. Visual examples from the dashboard and playback workflow are shown in the latest Project 6 screenshots [Source](https://www.genspark.ai/api/files/s/Oovzqkxn) [Source](https://www.genspark.ai/api/files/s/0qBPyuvl) [Source](https://www.genspark.ai/api/files/s/dsetllkL)
 
 ---
 
@@ -86,51 +183,65 @@ Data Engineer with strong chemistry Research background (MSc Chemistry) and teac
 
 | Metric | Value |
 |--------|-------|
-| **Total Lines of Code** | 2,250+ |
-| **Projects Completed** | 3 |
-| **Technologies Used** | 8+ |
-| **Domain Focus** | Pharmaceutical/Chemistry |
-| **Code Quality** | Production-ready with type hints |
+| **Projects Featured** | 6 |
+| **Domain Focus** | Chemistry / Pharma / Scientific Data |
+| **Workflow Coverage** | ETL, Validation, AI Summarization, Relational Storage, Dashboards |
+| **Core Strength** | Domain-aware data engineering with scientific context |
+| **Code Style** | Structured, documented, validation-oriented |
 
 ---
 
 ## 🎯 What Makes This Portfolio Unique
 
-**1. Domain Expertise:**
+### 1. Domain Expertise
+- Real chemistry and pharmaceutical-style validation logic
+- Scientific context applied to technical engineering problems
+- Use cases aligned with R&D, biotech, and laboratory data
 
-- Real pharmaceutical validation rules (pH, temperature, concentration)
-- Chemistry MSc background applied to data engineering
-- Industry-relevant use cases
+### 2. Modern Technical Breadth
+- ETL workflows
+- AI-assisted summarization
+- data quality analysis
+- relational storage
+- dashboard development
+- molecular visualization
 
-**2. Modern Tech Stack:**
+### 3. User-Centered Communication
+- clear documentation
+- teaching-influenced explanation style
+- accessible analytical outputs
+- portfolio-friendly presentation
 
-- AI/ML integration (LLM APIs)
-- Statistical analysis (Z-score, IQR)
-- Production patterns (logging, error handling, type hints)
-
-**3. Teaching Background:**
-
-- User-friendly summaries (teaching mode)
-- Clear documentation
-- Comprehensive README files
-
-**4. Complete Workflow Coverage:**
-
-- Data Ingestion (ETL)
-- Data Processing (AI summarization)
-- Data Quality (profiling & validation)
+### 4. Connected Workflow Thinking
+This is not only a collection of isolated scripts — the repository shows how data can move through:
+- ingestion
+- validation
+- storage
+- reporting
+- visualization
+- interactive user-facing analysis
 
 ---
 
 ## 📈 Project Complexity Progression
 
-Project 1: LabData ETL Pipeline └─→ Foundation: ETL basics + domain validation
+### Project 1 — LabData ETL Pipeline
+Foundation: ETL basics + domain validation
 
-Project 2: GenAI Research Summarizer
-└─→ Advanced: AI/ML integration + PDF processing
+### Project 2 — GenAI Research Summarizer
+Advanced: AI-assisted summarization + document handling
 
-Project 3: Pharma Data Quality Analyzer └─→ Expert: Statistical analysis + anomaly detection
+### Project 3 — Pharma Data Quality Analyzer
+Quality analytics: profiling + anomaly detection
 
+### Project 4 — ChemData Validation Engine
+Scientific validation + 2D/3D molecular visualization
+
+### Project 5 — ChemData Relational Vault
+Relational persistence + export workflows
+
+### Project 6 — ChemData Control Center
+Interactive dashboard + molecular analytics + reaction playback
 
 ---
 
@@ -140,14 +251,21 @@ Project 3: Pharma Data Quality Analyzer └─→ Expert: Statistical analysis +
 
 ```bash
 # Clone the repository
-git clone https://github.com/JesusAs2019/python-secure-project.git
-cd python-secure-project
+git clone https://github.com/JesusAs2019/technical-analytical-project.git
+cd technical-analytical-project
 
 # Choose a project
-cd 01-labdata-etl-pipeline  # or 02-genai-research-summarizer or 03-pharma-data-quality-analyzer
+cd 04-chemdata-validation-engine
+# or
+cd 05-chemdata-relational-vault
+# or
+cd 06-chemdata-control-center
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Run the project
+# (see each project README for exact commands)
 
 # Run demo
 python src/pipeline.py  # (adjust filename per project)
@@ -158,50 +276,67 @@ Each project includes:
 ✅ Sample data for testing
 ✅ requirements.txt with dependencies
 ✅ Working demos
+
 🎓 Background
-Education:
 
-MSc Chemistry (Pharmaceutical focus)
-Teaching experience (translating complex concepts)
-Transition Journey:
+Education
 
+MSc Chemistry
+BSc Oil & Gas Management
+Professional Strengths
+scientific and analytical thinking
+structured problem solving
+user-friendly explanation design
+domain-aware engineering mindset
+
+ (R&D, Renewable Energy, Pharmaceutical focus)
+
+Career Direction -Transition Journey:
 Chemistry research → Data analysis
-Teaching → User-centric design
-Pharmaceutical domain → Data engineering
+Teaching → User-centric design → Data engineering
+
 Why Data Engineering:
 
 Combine chemistry expertise with technical skills
 Build solutions for scientific data challenges
 Bridge gap between domain experts and technology
+Bringing together scientific domain knowledge and modern engineering practices to build useful, well-documented, analytics-oriented software solutions.
+
 📫 Contact
 GitHub: JesusAs2019
 
 Open to:
 
-Data Engineer roles (Pharma/Biotech/Life Sciences)
-Contract opportunities (£550-650/day)
-Consulting projects (pharmaceutical data)
+Data Engineer roles
+R&D /Pharma / Biotech / Life Science analytics opportunities
+Technical consulting and project-based work
+Scientific data workflow and validation projects
 🏅 Professional Positioning
-Target Role: Data Engineer (Pharma/Biotech focus)
+Target profile: Data Engineer / Technical Analytics / Scientific Data Workflow specialist
 
-Competitive Advantage:
-
-Chemistry MSc + Teaching + Data Engineering + AI.
-Domain expertise in pharmaceutical validation rules
-Teaching background enables better stakeholder communication
-Contract at £450-500 generic market rate.
+Competitive Advantage
+Chemistry MSc + data engineering portfolio
+domain expertise in validation and scientific records
+strong crossover between technical implementation and subject-matter context
+capable of building both backend workflows and user-facing analytical dashboards
 
 📝 License
-MIT License - Free to use and modify
+
+MIT License — free to use and modify.
 
 🙏 Acknowledgments
-Built with:
+Built with technologies and tools including:
 
-Python 3.10+
-pandas, numpy
-OpenAI API
-PyPDF2
-sqlite3
+Python
+pandas
+numpy
+SQL / SQLite
+RDKit
+SQLAlchemy
+Streamlit
+Plotly
+py3Dmol
+pytest
+LLM-assisted workflow patterns
 
-Last Updated: June 2026
-
+Last Updated: July 2026
