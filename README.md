@@ -69,6 +69,7 @@ Each project is organized as a standalone portfolio piece with its own code, set
 A chemistry-aware ETL pipeline for pharmaceutical or laboratory-style records. This project focuses on transforming raw structured inputs into cleaner outputs with domain-aware checks and validation logic.
 
 **Highlights**
+
 - pH validation with chemistry-aware rules
 - temperature and concentration checks
 - unit conversion support
@@ -84,6 +85,7 @@ A chemistry-aware ETL pipeline for pharmaceutical or laboratory-style records. T
 An AI-assisted research summarization workflow for technical and scientific documents. This project demonstrates document handling, summarization design, and user-friendly explanation output.
 
 **Highlights**
+
 - LLM-compatible summarization workflow
 - PDF text extraction
 - teaching-mode summaries
@@ -99,6 +101,7 @@ An AI-assisted research summarization workflow for technical and scientific docu
 A pharmaceutical-style data quality and profiling project that evaluates dataset consistency, completeness, and anomaly patterns with domain-aware checks.
 
 **Highlights**
+
 - statistical profiling
 - quality scoring
 - anomaly detection
@@ -114,6 +117,7 @@ A pharmaceutical-style data quality and profiling project that evaluates dataset
 A Python-based chemical data validation and molecular visualization project that ingests structured compound records, validates chemistry-specific fields, generates JSON outputs, and produces an analytical dashboard with 2D and 3D molecular views.
 
 **Highlights**
+
 - SMILES and molecular data validation
 - JSON report generation
 - 2D structure visualization
@@ -131,6 +135,7 @@ A Python-based chemical data validation and molecular visualization project that
 A relational storage and export layer for validated chemistry records. This project demonstrates how structured scientific data can be persisted, synchronized, queried, and exported in reusable analytical formats.
 
 **Highlights**
+
 - relational schema for compound records
 - JSON seed-data ingestion
 - duplicate-safe synchronization
@@ -146,6 +151,7 @@ A relational storage and export layer for validated chemistry records. This proj
 A Streamlit-based molecular analytics dashboard that acts as the front-end control center for validated chemistry records. It combines 2D/3D visualization, reaction-step interpretation, energy-profile analysis, and conceptual reaction playback into a portfolio-ready analytical interface.
 
 **Highlights**
+
 - chemistry record browsing and filtering
 - 2D molecular structure display
 - 3D molecular viewer
@@ -160,38 +166,50 @@ A Streamlit-based molecular analytics dashboard that acts as the front-end contr
 ##### 1. Project 6 Molecular Control Center
 
 ### Aspirin
-![Project 6 Molecular Control Center](./assets/screenshots/Aspirin_2D_3D.png)
+
+![Project 6 Molecular Control Center](./assets/Aspirin_screenshots/Aspirin_2Dstructure_3Dviewer.png)
 
 ### Caffeine
-![Project 6 Molecular Control Center](./assets/screenshots/Caffeine_2D_Molecular_Structure_3D_Molecular_viewer.png)
+
+![Project 6 Molecular Control Center](./assets/Caffeine_screenshots/Caffeine_2Dstructure_3Dviewer.png)
 
 ### Ethanol
-![Project 6 Molecular Control Center](./assets/screenshots/Ethanol_2D_Molecular_Structure_3D_Molecular_Viewer.png)
+
+![Project 6 Molecular Control Center](./assets/Ethanol_screenshots/Ethanol_2Dstructure_3Dviewer.png)
 
 ##### 2. Reaction Pathway & Energy Intelligence
 
-### Aspirin
-![Reaction Pathway & Energy Intelligence](./assets/screenshots/Aspirin_Reaction_Energy_pathway.png)
+### Aspirin-2
 
-### Caffeine
-![Reaction Pathway & Energy Intelligence](./assets/screenshots/Caffeine_Reaction_Pathway_Energy_Intelligence.png)
+![Reaction Pathway & Energy Intelligence](./assets/Aspirin_screenshots/Aspirin_reaction_pathway_energy_intelligence_%26_3Dtrajectory_playback.png)
 
-### Ethanol
-![Reaction Pathway & Energy Intelligence](./assets/screenshots/Ethanol_ReactionPathway_Energy_Intelligence.png)
+### Caffeine-2
+
+![Reaction Pathway & Energy Intelligence](./assets/Caffeine_screenshots/caffeine_reaction_pathway_energy_intelligence_%26_3Dtrajectory_playback.png)
+
+### Ethanol-2
+
+![Reaction Pathway & Energy Intelligence](./assets/Ethanol_screenshots/Ethanol_reaction_pathway_energy_intelligence_%26_3Dtrajectory_playback.png)
 
 ##### 3. Conceptual Reaction Playback
 
 ### Aspirin Hydrolysis Playback
-![Aspirin Hydrolysis Playback](./assets/screenshots/Aspirin_2D-3D.png)
-![Aspirin Hydrolysis Playback](./assets/screenshots/Aspirin_Conceptual_Reaction_1Animation.png)
-![Aspirin Hydrolysis Playback](./assets/screenshots/Aspirin_Conceptual_Reaction_Animation2.png)
+
+![Aspirin Hydrolysis Playback - Frame A](./assets/Aspirin_screenshots/Aspirin_Hydrolysis_playback-a.png)
+
+![Aspirin Hydrolysis Playback - Frame B](./assets/Aspirin_screenshots/Aspirin_Hydrolysis_playback-b.png)
 
 ### Caffeine Protonation Playback
-![Caffeine Protonation Playback](./assets/screenshots/Caffeine_Conceptual_Reaction_Animation2.png)
-![Caffeine Protonation Playback](./assets/screenshots/Caffeine_Conceptual_Reaction_Animation.png)
 
-### Ethanol
-![Ethanol Conceptual Reaction Playback](./assets/screenshots/Ethanol_Conceptual_Reaction_Animation.png)
+![Caffeine Protonation Playback - Frame A](./assets/Caffeine_screenshots/Caffeine_2Dprotonation_equilibrium_playback-a.png)
+
+![Caffeine Protonation Playback - Frame B](./assets/Caffeine_screenshots/Caffeine_2Dprotonisation_equilibrium_playback-b.png)
+
+### Ethanol 2D Dehydration
+
+![Ethanol Conceptual Reaction Playback - Frame A](./assets/Ethanol_screenshots/Ethanol_2Ddehydration_playback-a.png)
+
+![Ethanol Conceptual Reaction Playback - Frame B](./assets/Ethanol_screenshots/Ethanol_2Ddehydration_playback-b.png)
 
 ---
 
@@ -200,12 +218,15 @@ A Streamlit-based molecular analytics dashboard that acts as the front-end contr
 Projects **4**, **5**, and **6** form a connected chemistry analytics workflow inside this repository:
 
 ### [Project 4 — ChemData Validation Engine](./04-chemdata-validation-engine)
+
 Validates structured chemical records, checks molecular data quality, and generates 2D/3D visualization-ready outputs.
 
 ### [Project 5 — ChemData Relational Vault](./05-chemdata-relational-vault)
+
 Stores validated chemistry records in a relational structure, supports synchronization and export, and acts as a persistence layer for downstream analytics.
 
 ### [Project 6 — ChemData Control Center](./06-chemdata-control-center)
+
 Provides the user-facing interactive dashboard with molecular views, reaction pathway insights, energy charts, and conceptual playback controls.
 
 Together, these projects demonstrate a complete progression from **validation → storage → interactive analytical presentation**. Visual examples from the dashboard and playback workflow are shown in the latest Project 6 screenshots [Source](https://www.genspark.ai/api/files/s/Oovzqkxn) [Source](https://www.genspark.ai/api/files/s/0qBPyuvl) [Source](https://www.genspark.ai/api/files/s/dsetllkL)
