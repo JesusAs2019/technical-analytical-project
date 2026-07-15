@@ -156,16 +156,17 @@ A Streamlit-based molecular analytics dashboard that acts as the front-end contr
 **Technologies:** Python, Streamlit, RDKit, Plotly, py3Dmol
 
 **Visual reference:** Project 6 dashboard and reaction playback screenshots  
+
 ##### 1. Project 6 Molecular Control Center
 
 ### Aspirin
 ![Project 6 Molecular Control Center](./assets/screenshots/Aspirin_2D_3D.png)
 
 ### Caffeine
-![Project 6 Molecular Control Center](./assets/screenshots/Caffeine_2D%20Molecular_Structure_%26_3D_Molecular_viewer.png)
+![Project 6 Molecular Control Center](./assets/screenshots/Caffeine_2D_Molecular_Structure_3D_Molecular_viewer.png)
 
 ### Ethanol
-![Project 6 Molecular Control Center](./assets/screenshots/Ethanol_2D_Molecular%20Structure_%26_3D_Molecular_Viewer.png)
+![Project 6 Molecular Control Center](./assets/screenshots/Ethanol_2D_Molecular_Structure_3D_Molecular_Viewer.png)
 
 ##### 2. Reaction Pathway & Energy Intelligence
 
@@ -173,16 +174,16 @@ A Streamlit-based molecular analytics dashboard that acts as the front-end contr
 ![Reaction Pathway & Energy Intelligence](./assets/screenshots/Aspirin_Reaction_Energy_pathway.png)
 
 ### Caffeine
-![Reaction Pathway & Energy Intelligence](./assets/screenshots/Caffeine_Reaction_Pathway_%26_Energy_Intelligence.png)
+![Reaction Pathway & Energy Intelligence](./assets/screenshots/Caffeine_Reaction_Pathway_Energy_Intelligence.png)
 
 ### Ethanol
-![Reaction Pathway & Energy Intelligence](./assets/screenshots/Ethanol_ReactionPathway_%26_Energy_Intelligence.png)
+![Reaction Pathway & Energy Intelligence](./assets/screenshots/Ethanol_ReactionPathway_Energy_Intelligence.png)
 
 ##### 3. Conceptual Reaction Playback
 
 ### Aspirin Hydrolysis Playback
 ![Aspirin Hydrolysis Playback](./assets/screenshots/Aspirin_2D-3D.png)
-![Aspirin Hydrolysis Playback](./assets/screenshots/Aspirin_Conceptual_Reaction_Animation1.png)
+![Aspirin Hydrolysis Playback](./assets/screenshots/Aspirin_Conceptual_Reaction_1Animation.png)
 ![Aspirin Hydrolysis Playback](./assets/screenshots/Aspirin_Conceptual_Reaction_Animation2.png)
 
 ### Caffeine Protonation Playback
