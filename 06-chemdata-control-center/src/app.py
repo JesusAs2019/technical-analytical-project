@@ -8,7 +8,7 @@ import json
 
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
-
+from nano_analytics_tab import render_nano_analytics_tab
 
 from data_loader import (
     get_available_compounds,
@@ -1036,6 +1036,7 @@ def main() -> None:
             "Reaction Pathway & Energy Intelligence",
             "Synthesis Conditions & Provenance",
             "Operational Monitoring",
+            "🔬 Nanomaterials & DLS Analytics",  # <-- TAB 7 ADDED HERE
         ]
     )
 
@@ -1074,7 +1075,9 @@ def main() -> None:
     with tabs[5]:
         render_tab_operational_monitoring(selected_record, filtered_records)
 
+    with tabs[6]:
+        render_nano_analytics_tab()  # <-- RENDERS THE NEW NANOMATERIALS SUITE
+
 
 if __name__ == "__main__":
     main()
-
