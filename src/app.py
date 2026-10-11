@@ -199,10 +199,9 @@ def render_hero() -> None:
         <div class="hero-card">
             <div class="hero-title">ChemData Control Center</div>
             <div class="hero-subtitle">
-                A portfolio-grade molecular analytics dashboard for browsing validated chemistry records,
-                rendering 2D and 3D structures, exploring reaction pathway playback, interpreting activation
-                energy, and reviewing synthesis conditions in a control-center style interface.
-            </div>
+                A production-grade scientific analytics and validation platform for browsing validated chemistry records, 
+                rendering interactive 2D/3D molecular conformers, exploring reaction pathway kinetics, and evaluating 
+                Nanoparticle DLS hydrodynamic size distributions with DLVO colloidal stability profiling.
         </div>
         """,
         unsafe_allow_html=True,
